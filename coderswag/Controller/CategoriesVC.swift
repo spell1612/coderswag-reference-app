@@ -39,8 +39,16 @@ class CategoriesVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
         
     }
     
-
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let catagory=DataProvider.SelfInstance.getCatagories()[indexPath.row]
+        performSegue(withIdentifier: "CatagoryToProduct", sender: catagory) //here the sender: object can be any object. its just used to pass the data so that we can use "catagory" in prepare for segue func
+    }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let segueData=segue.destination as? ProductsVC {
+            segueData.catTitle=(sender as! Catagory).title  //sender needs to asserted as Catagory
+        }
+    }
     
 }
 
