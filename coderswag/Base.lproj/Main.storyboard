@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--CoderSwag-->
+        <!--CODERSWAG-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="CategoriesVC" customModule="coderswag" customModuleProvider="target" sceneMemberID="viewController">
@@ -17,35 +17,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shop By Catagory" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b1y-GV-3qe">
-                                <rect key="frame" x="16" y="35" width="162" height="27.5"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
-                                <nil key="textColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SHOP BY CATAGORY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b1y-GV-3qe">
+                                <rect key="frame" x="16" y="35" width="169" height="22"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ryN-rC-b7a">
-                                <rect key="frame" x="0.0" y="76" width="375" height="527"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="146" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ryN-rC-b7a">
+                                <rect key="frame" x="0.0" y="70.5" width="375" height="532.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Catagory Cell" rowHeight="144" id="7vl-k0-PLQ" customClass="TableCellView" customModule="coderswag" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="144"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Catagory Cell" rowHeight="146" id="7vl-k0-PLQ" customClass="TableCellView" customModule="coderswag" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="146"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="7vl-k0-PLQ" id="4e2-LH-Io4">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="143.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="146"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="digital" translatesAutoresizingMaskIntoConstraints="NO" id="2uZ-Me-IBp">
-                                                    <rect key="frame" x="0.0" y="-0.5" width="375" height="143.5"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="digital" translatesAutoresizingMaskIntoConstraints="NO" id="2uZ-Me-IBp">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="140"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SHIRTS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HFF-Kf-TeL">
-                                                    <rect key="frame" x="151" y="56.5" width="73" height="31"/>
+                                                    <rect key="frame" x="151" y="57.5" width="73" height="31"/>
                                                     <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="22"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstItem="2uZ-Me-IBp" firstAttribute="leading" secondItem="4e2-LH-Io4" secondAttribute="leading" id="7UE-Mv-SZ1"/>
+                                                <constraint firstItem="2uZ-Me-IBp" firstAttribute="top" secondItem="4e2-LH-Io4" secondAttribute="top" id="InR-qc-zZ0"/>
+                                                <constraint firstAttribute="bottom" secondItem="2uZ-Me-IBp" secondAttribute="bottom" constant="6" id="S1t-HW-mjg"/>
+                                                <constraint firstAttribute="trailing" secondItem="2uZ-Me-IBp" secondAttribute="trailing" id="UTa-yE-LxK"/>
                                                 <constraint firstItem="HFF-Kf-TeL" firstAttribute="centerY" secondItem="4e2-LH-Io4" secondAttribute="centerY" id="kdO-bG-gq3"/>
                                                 <constraint firstItem="HFF-Kf-TeL" firstAttribute="centerX" secondItem="4e2-LH-Io4" secondAttribute="centerX" id="tXc-0V-cL6"/>
                                             </constraints>
@@ -56,12 +59,14 @@
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <sections/>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="b1y-GV-3qe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="35" id="Bpy-rY-aEk"/>
                             <constraint firstItem="ryN-rC-b7a" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="KpJ-Mz-jrd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="b1y-GV-3qe" secondAttribute="trailing" constant="190" id="UjE-o8-bHf"/>
                             <constraint firstAttribute="bottom" secondItem="ryN-rC-b7a" secondAttribute="bottom" id="keK-Bi-jLf"/>
                             <constraint firstItem="b1y-GV-3qe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="nMQ-UR-zZr"/>
                             <constraint firstItem="ryN-rC-b7a" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="tko-xq-I58"/>
@@ -69,14 +74,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="CoderSwag" id="D57-Pf-N4t"/>
+                    <navigationItem key="navigationItem" title="CODERSWAG" id="D57-Pf-N4t"/>
                     <connections>
                         <outlet property="catagoryTable" destination="ryN-rC-b7a" id="CGm-pl-HKj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1072.8" y="133.5832083958021"/>
+            <point key="canvasLocation" x="1069.5999999999999" y="132.68365817091455"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="euw-mt-TCk">
