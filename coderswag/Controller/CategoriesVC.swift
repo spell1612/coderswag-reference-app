@@ -46,7 +46,7 @@ class CategoriesVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let segueData=segue.destination as? ProductsVC {
-            segueData.catTitle=(sender as! Catagory).title  //sender needs to asserted as Catagory
+            segueData.catagoryTitle=(sender as! Catagory).title  //sender needs to asserted as Catagory
         }
     }
     
